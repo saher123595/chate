@@ -180,6 +180,17 @@ ul.list li ul li {
     .your-post ul.list {
         width: 100px;
     }
+    ul li ul {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        width: 130%;
+        margin-left: -30px;
+        list-style: none;
+        opacity: 0;
+        transition: .5s;
+        text-align: center;
+    }
 }
 
 .img {
